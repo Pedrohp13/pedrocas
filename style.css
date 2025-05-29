@@ -1,0 +1,78 @@
+/* Estilos básicos para o site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141616f8;
+    color: #deebe6;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    color: #899c9c;
+  }
+  
+  main {
+    padding: 2rem;
+    color: #2c2c2c;
+  } 
+  
+  .music-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .music-item {
+    background-color: #777777;
+    border: 1px solid #fffcfc;
+    border-radius: 5px;
+    width: 250px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .music-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: auto;
+  }
+  
+  .music-item h2 {
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .music-item p {
+    font-size: 0.9rem;
+    color: #ffffff;
+  }
+  
+  .music-item a {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.5rem 2rem;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .music-item a:hover {
+    background-color: #4d8dd1;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
